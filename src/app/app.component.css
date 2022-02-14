@@ -1,0 +1,25 @@
+.container{
+    width: 350px;
+    margin: 0 auto;
+}
+.todo-list > li > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.todo-list button{
+    margin-left: 5px;
+}
+.todo-list > li {
+    margin-top: 5px;
+}
+.task{
+    text-align: center;
+    padding: 5px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
